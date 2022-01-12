@@ -68,7 +68,7 @@ echo str_shuffle($text);
 echo "<br>";
 
 // ex 7
-$text = "<p><b>Hello,</b> nous apprenons PHP</p>";
+$text = "<strong>Hello,</strong> nous apprenons <span style='color: '>PHP</span>";
 echo $text.'<br>';
 echo strip_tags($text);
 echo "<br>";
